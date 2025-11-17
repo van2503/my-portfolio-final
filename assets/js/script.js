@@ -59,8 +59,8 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            document.title = "Portfolio | Vân Trịnh";
+            $("#favicon").attr("href", "assets/images/van2.jpg");
         }
         else {
             document.title = "Come Back To Portfolio";
